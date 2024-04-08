@@ -17,7 +17,7 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 16980
+INFO: [Synth 8-7075] Helper process launched with PID 12648
 WARNING: [Synth 8-992] storeXM is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:55]
 WARNING: [Synth 8-992] storeMW is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:55]
 WARNING: [Synth 8-992] jr is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:90]
@@ -55,7 +55,7 @@ WARNING: [Synth 8-6901] identifier 'errorOccured' is used before its declaration
 WARNING: [Synth 8-6901] identifier 'errorOut' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:219]
 WARNING: [Synth 8-6901] identifier 'useMemory' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:255]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1328.996 ; gain = 0.000
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'Wrapper' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
 INFO: [Synth 8-6157] synthesizing module 'processor' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:20]
@@ -158,24 +158,24 @@ INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/sek49/Documents/350
 INFO: [Synth 8-6155] done synthesizing module 'regfile' (43#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/regfile.v:1]
 INFO: [Synth 8-6157] synthesizing module 'RAM' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/RAM.v:2]
 INFO: [Synth 8-6155] done synthesizing module 'RAM' (44#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/RAM.v:2]
-INFO: [Synth 8-6157] synthesizing module 'pwn' [C:/Users/sek49/Desktop/pwm.v:2]
-INFO: [Synth 8-6157] synthesizing module 'PWMSerializer' [C:/Users/sek49/Desktop/PWMSerializer.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'PWMSerializer' (45#1) [C:/Users/sek49/Desktop/PWMSerializer.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'pwn' (46#1) [C:/Users/sek49/Desktop/pwm.v:2]
+INFO: [Synth 8-6157] synthesizing module 'pwn' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/pwn.v:2]
+INFO: [Synth 8-6157] synthesizing module 'PWMSerializers' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/PWMSerializers.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'PWMSerializers' (45#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/PWMSerializers.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'pwn' (46#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/pwn.v:2]
 INFO: [Synth 8-6155] done synthesizing module 'Wrapper' (47#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1328.996 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1328.996 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1328.996 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.296 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.299 . Memory (MB): peak = 1328.996 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -189,29 +189,29 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/Wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1431.949 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1428.449 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1431.949 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1428.449 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1431.949 ; gain = 102.668
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1428.449 ; gain = 99.453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1431.949 ; gain = 102.668
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1428.449 ; gain = 99.453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1431.949 ; gain = 102.668
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1428.449 ; gain = 99.453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1431.949 ; gain = 102.668
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 1428.449 ; gain = 99.453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -250,13 +250,13 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:29 . Memory (MB): peak = 1431.949 ; gain = 102.668
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 1428.449 ; gain = 99.453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:33 . Memory (MB): peak = 1431.949 ; gain = 102.668
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:33 ; elapsed = 00:00:34 . Memory (MB): peak = 1428.449 ; gain = 99.453
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
@@ -343,7 +343,7 @@ Start Timing Optimization
       : CPU/b1/useRS1[30]
       : CPU/b1/i_0/useRS1[30]
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:38 ; elapsed = 00:00:39 . Memory (MB): peak = 1511.758 ; gain = 182.477
+Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:39 . Memory (MB): peak = 1507.715 ; gain = 178.719
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
@@ -908,7 +908,7 @@ CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350
 Inferred a: "set_disable_timing -from I3 -to O i_3141"
 WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3021/O'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1511.781 ; gain = 182.500
+Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:40 . Memory (MB): peak = 1507.773 ; gain = 178.777
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -926,13 +926,13 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1511.781 ; gain = 182.500
+Finished IO Insertion : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1507.773 ; gain = 178.777
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:41 ; elapsed = 00:00:42 . Memory (MB): peak = 1511.781 ; gain = 182.500
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1507.773 ; gain = 178.777
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through q_i_5__37/O'
 WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through q_i_4__65/O'
@@ -940,25 +940,25 @@ WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path 
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1511.781 ; gain = 182.500
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1507.773 ; gain = 178.777
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:42 . Memory (MB): peak = 1511.781 ; gain = 182.500
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1507.773 ; gain = 178.777
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1511.781 ; gain = 182.500
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1507.773 ; gain = 178.777
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1511.781 ; gain = 182.500
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1507.773 ; gain = 178.777
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -990,18 +990,18 @@ Report Cell Usage:
 |14    |OBUFT |    10|
 +------+------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1511.781 ; gain = 182.500
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1507.773 ; gain = 178.777
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 80 critical warnings and 64 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 1511.781 ; gain = 79.832
-Synthesis Optimization Complete : Time (s): cpu = 00:00:42 ; elapsed = 00:00:43 . Memory (MB): peak = 1511.781 ; gain = 182.500
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 1507.773 ; gain = 79.324
+Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1507.773 ; gain = 178.777
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.073 . Memory (MB): peak = 1523.609 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.075 . Memory (MB): peak = 1519.613 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 2 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1527.316 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1523.289 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
@@ -1009,8 +1009,8 @@ Synth Design complete, checksum: 83fbebed
 INFO: [Common 17-83] Releasing license: Synthesis
 110 Infos, 111 Warnings, 81 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:47 . Memory (MB): peak = 1527.316 ; gain = 198.035
+synth_design: Time (s): cpu = 00:00:46 ; elapsed = 00:00:48 . Memory (MB): peak = 1523.289 ; gain = 194.293
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'C:/Users/sek49/Documents/350Project/processor.runs/synth_1/Wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Wrapper_utilization_synth.rpt -pb Wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Apr  7 22:48:48 2024...
+INFO: [Common 17-206] Exiting Vivado at Sun Apr  7 23:12:22 2024...

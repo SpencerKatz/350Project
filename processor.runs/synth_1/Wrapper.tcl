@@ -71,6 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 3
+set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -94,7 +95,7 @@ read_verilog -library xil_defaultlib {
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Execute.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Fetch.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Memory.v
-  C:/Users/sek49/Desktop/PWMSerializer.v
+  C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/PWMSerializers.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/RAM.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ROM.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/alu.v
@@ -118,7 +119,7 @@ read_verilog -library xil_defaultlib {
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/notter.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/orer.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v
-  C:/Users/sek49/Desktop/pwm.v
+  C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/pwn.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/regfile.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/registerEx.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_1.v
