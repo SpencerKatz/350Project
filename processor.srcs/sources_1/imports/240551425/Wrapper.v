@@ -24,8 +24,10 @@
  *
  **/
 
-module Wrapper (clock, reset2, LED);
+module Wrapper (clock, reset2, LED, JA);
 	input clock, reset2;
+	output [10:0] JA;
+	
 	wire reset;
 	assign reset = ~reset2;
 	output [15:0] LED;
@@ -76,5 +78,10 @@ module Wrapper (clock, reset2, LED);
 		.addr(memAddr[11:0]), 
 		.dataIn(memDataIn), 
 		.dataOut(memDataOut));
+		
+	
+	wire chSel, audioOut, audioEn;
+	pwn p1(.clk(clock), .chSel(chSel), .audioOut(audioOut), .audioEn(audioEn));
+	assign JA[0] = audioOut;
 
 endmodule

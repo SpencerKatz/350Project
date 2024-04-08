@@ -1,8 +1,8 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Wed Apr  3 18:08:52 2024
-| Host         : P2-03 running 64-bit major release  (build 9200)
+| Date         : Sun Apr  7 22:48:48 2024
+| Host         : P1-08 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file Wrapper_utilization_synth.rpt -pb Wrapper_utilization_synth.pb
 | Design       : Wrapper
 | Device       : 7a100tcsg324-1
@@ -30,13 +30,13 @@ Table of Contents
 +-------------------------+------+-------+------------+-----------+-------+
 |        Site Type        | Used | Fixed | Prohibited | Available | Util% |
 +-------------------------+------+-------+------------+-----------+-------+
-| Slice LUTs*             | 2484 |     0 |          0 |     63400 |  3.92 |
-|   LUT as Logic          | 2484 |     0 |          0 |     63400 |  3.92 |
+| Slice LUTs*             | 2399 |     0 |          0 |     63400 |  3.78 |
+|   LUT as Logic          | 2399 |     0 |          0 |     63400 |  3.78 |
 |   LUT as Memory         |    0 |     0 |          0 |     19000 |  0.00 |
 | Slice Registers         | 1325 |     0 |          0 |    126800 |  1.04 |
 |   Register as Flip Flop | 1325 |     0 |          0 |    126800 |  1.04 |
 |   Register as Latch     |    0 |     0 |          0 |    126800 |  0.00 |
-| F7 Muxes                |    5 |     0 |          0 |     31700 |  0.02 |
+| F7 Muxes                |    2 |     0 |          0 |     31700 | <0.01 |
 | F8 Muxes                |    0 |     0 |          0 |     15850 |  0.00 |
 +-------------------------+------+-------+------------+-----------+-------+
 * Warning! The Final LUT count, after physical optimizations and full implementation, is typically lower. Run opt_design after synthesis, if not already completed, for a more realistic count.
@@ -90,7 +90,7 @@ Table of Contents
 +-----------------------------+------+-------+------------+-----------+-------+
 |          Site Type          | Used | Fixed | Prohibited | Available | Util% |
 +-----------------------------+------+-------+------------+-----------+-------+
-| Bonded IOB                  |   18 |     0 |          0 |       210 |  8.57 |
+| Bonded IOB                  |   29 |     0 |          0 |       210 | 13.81 |
 | Bonded IPADs                |    0 |     0 |          0 |         2 |  0.00 |
 | PHY_CONTROL                 |    0 |     0 |          0 |         6 |  0.00 |
 | PHASER_REF                  |    0 |     0 |          0 |         6 |  0.00 |
@@ -146,17 +146,18 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| LUT6     | 1670 |                 LUT |
+| LUT6     | 1608 |                 LUT |
 | FDCE     | 1189 |        Flop & Latch |
-| LUT5     |  287 |                 LUT |
-| LUT2     |  273 |                 LUT |
-| LUT4     |  211 |                 LUT |
-| LUT3     |  181 |                 LUT |
+| LUT5     |  334 |                 LUT |
+| LUT2     |  259 |                 LUT |
+| LUT4     |  206 |                 LUT |
+| LUT3     |  137 |                 LUT |
 | FDRE     |  131 |        Flop & Latch |
-| LUT1     |   33 |                 LUT |
-| OBUF     |   16 |                  IO |
-| MUXF7    |    5 |               MuxFx |
+| OBUF     |   17 |                  IO |
+| OBUFT    |   10 |                  IO |
+| LUT1     |    9 |                 LUT |
 | FDSE     |    5 |        Flop & Latch |
+| MUXF7    |    2 |               MuxFx |
 | IBUF     |    2 |                  IO |
 | BUFG     |    1 |               Clock |
 +----------+------+---------------------+
