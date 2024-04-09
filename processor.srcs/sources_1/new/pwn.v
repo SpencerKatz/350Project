@@ -1,6 +1,7 @@
 
 module pwn(
-    input        clk, 		// System Clock Input 100 Mhz
+    input        clk,
+    input   [7:0] tone, 		// System Clock Input 100 Mhz
     output       chSel,		// Channel select; 0 for rising edge, 1 for falling edge
     output       audioOut,	// PWM signal to the audio jack	
     output       audioEn);	// Audio Enable
@@ -24,12 +25,13 @@ module pwn(
 	////////////////////
 
 	//use switch input to index into FREQ
+	wire [7:0] tone_freq;
 	
-	assign tone_freq = 125;
+	assign tone_freq = tone;
 
 	wire[17:0] limit;
 
-	assign limit = (SYSTEM_FREQ)/((tone_freq)*2) - 1;
+	assign limit = (SYSTEM_FREQ)/(2000000);
 
 	
 	reg desired_clk = 0;
@@ -50,7 +52,7 @@ module pwn(
    
     // assign duty_cycle_out = (select === 4'b0000) ? (duty_cycle_mic) : ((duty_cycle + duty_cycle_mic)/2);
 
-	PWMSerializers pwm_serial(.clk(clk), .reset(reset), .duty_cycle(RAM_duty_cycle), .signal(audioOut)); 
+	PWMSerializers pwm_serial(.clk(clk), .reset(reset), .duty_cycle(duty_cycle), .signal(audioOut)); 
 	
 	
 //	-----------------------------------------------------------------------------------
