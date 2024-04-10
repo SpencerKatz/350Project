@@ -4,12 +4,16 @@ module pwn(
     input   [7:0] tone, 		// System Clock Input 100 Mhz
     output       chSel,		// Channel select; 0 for rising edge, 1 for falling edge
     output       audioOut,	// PWM signal to the audio jack	
-    output       audioEn);	// Audio Enable
+    output       audioEn,
+    input [15:0] SW);	// Audio Enable
 
 	localparam MHz = 1000000;
 	localparam SYSTEM_FREQ = 100*MHz; // System clock frequency
-	localparam Max = 100;
-	localparam Min = 0;
+//	localparam Max = 100;
+	wire [15:0] Min = SW;
+	wire [7:0] Max;
+	
+	assign Max = SW[7:0];
 
 	assign chSel   = 1'b0;  // Collect Mic Data on the rising edge 
 	assign audioEn = 1'b1;  // Enable Audio Output
@@ -30,8 +34,9 @@ module pwn(
 	assign tone_freq = tone;
 
 	wire[17:0] limit;
-
-	assign limit = (SYSTEM_FREQ)/(2000000);
+    wire [10:0] divideByMe;
+    assign divideByMe = SW[15:5];
+	assign limit = (SYSTEM_FREQ)/(divideByMe << 5);
 
 	
 	reg desired_clk = 0;
@@ -46,7 +51,11 @@ module pwn(
 	end
 
 	wire [6:0] duty_cycle, duty_cycle_out;
-	assign duty_cycle = (desired_clk ? Max : Min);
+//	assign duty_cycle = (desired_clk ? Max : Min);
+assign duty_cycle = Max;
+	wire reset;
+	
+	assign reset = 1'b0;
    
    
    

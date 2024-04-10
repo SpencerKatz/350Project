@@ -84,8 +84,8 @@ module Wrapper (clock, reset2, LED, JA, SW);
 	wire chSel, audioOut, audioEn;
 	wire tone;
 	
-	assign tone = SW[4] ? 8'b10000000 : 8'b1;
-	pwn p1(.clk(clock), .tone(tone), .chSel(chSel), .audioOut(audioOut), .audioEn(audioEn));
-	assign JA[1] = 1'b0;
+	
+	pwn p1(.clk(clock), .tone(tone), .chSel(chSel), .audioOut(audioOut), .audioEn(audioEn), .SW(SW));
+	assign JA[1] = audioOut;
 
 endmodule
