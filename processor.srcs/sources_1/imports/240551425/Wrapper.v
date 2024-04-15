@@ -29,6 +29,7 @@ module Wrapper (
     input wire reset2,
     input wire [15:0] SW,
     output wire [1:1] JA,
+    output wire [1:1] JC,
     output wire [15:0] LED
 );
 
@@ -91,50 +92,53 @@ module Wrapper (
 	assign JA[1] = audioOut;
     
 
-    // Define wire to connect txuart output to register
-    wire txuart_output;
+    
+// UART control signals
+    reg i_wr;                     // Write strobe for UART
+    reg [7:0] i_data;             // Data to be sent over UART
+    wire o_uart_tx;               // UART transmit output
+    wire o_busy;                  // UART busy indicator
 
-    // Instantiate txuart module
-    txuart transmitter (
+    // Setup configuration for the UART
+    wire [30:0] uart_setup;
+    assign uart_setup = {1'b0,    // Disable hardware flow control
+                         2'b00,   // 8-bit words
+                         1'b0,    // 1 stop bit
+                         1'b0,    // No parity
+                         1'b0,    // Parity not fixed (irrelevant here)
+                         1'b0,    // Space parity (irrelevant here)
+                         24'd868  // Clock divider for baud rate
+                         };
+
+    // Instantiate the txuart module with the defined parameters
+    txuart #(
+        .INITIAL_SETUP(31'd868)   // Default setup can be dynamically changed via uart_setup
+    ) uart_transmitter (
         .i_clk(clock),
         .i_reset(reset),
-        .i_setup(setup),
-        .i_break(1'b0), // Assuming no break condition
+        .i_setup(uart_setup),
+        .i_break(1'b0),           // No break condition
         .i_wr(i_wr),
-        .i_data(dataToSend),
-        .i_cts_n(1'b1), // Assuming hardware flow control is not used
-        .o_uart_tx(txuart_output), // Connect to intermediate wire
+        .i_data(i_data),
+        .i_cts_n(1'b1),           // Not using hardware flow control
+        .o_uart_tx(o_uart_tx),
         .o_busy(o_busy)
     );
 
-    // Assign txuart output to register
-    always @(*) begin
-        o_uart_tx = txuart_output;
-    end
-    
-    // Registers for controlling the UART transmission
-    reg [7:0] dataToSend_reg;
-    reg i_wr_reg;
-    reg o_busy_reg;
-
-    // Sequential logic for controlling UART transmission
-    always @(posedge clock or posedge reset2) begin
-        if (reset2) begin
-            // Reset state
-            i_wr_reg <= 1'b0;
-            dataToSend_reg <= 8'b0;
-            o_busy_reg <= 1'b0;
+    // Logic to control UART transmission
+    // Example: Sending a byte when not busy
+    always @(posedge clock or posedge reset) begin
+        if (reset) begin
+            i_wr <= 0;
+            i_data <= 8'h00;      // Default data
+        end else if (!o_busy && some_condition_to_send) begin
+            i_wr <= 1;            // Trigger sending data
+            i_data <= 8'h01;  // Data to send
         end else begin
-            // Update i_wr and dataToSend based on external inputs
-            i_wr_reg <= i_wr;
-            if (i_wr_reg) begin
-                dataToSend_reg <= i_data;
-                o_busy_reg <= 1'b1; // Signal that data transmission is in progress
-            end else begin
-                o_busy_reg <= 1'b0; // Signal that data transmission is complete
-            end
+            i_wr <= 0;            // Reset write strobe
         end
     end
+    
 
     // Connect the registered signals to the txuart module
     assign dataToSend = dataToSend_reg;
@@ -154,6 +158,8 @@ module Wrapper (
     wire [7:0] dataToSend;
     reg o_uart_tx;
     wire o_busy;
+    
+    assign JC[1] = o_uart_tx;
 
     
     
