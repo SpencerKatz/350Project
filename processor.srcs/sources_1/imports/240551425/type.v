@@ -1,7 +1,7 @@
-module type(q_imem, rType, iType, jType, memInstruction, sw);
-
-input [31:0] q_imem;
-output rType, iType, jType, memInstruction, sw;
+module type(
+    input wire [31:0] q_imem,
+    output wire rType, iType, jType, memInstruction, sw
+);
 
 wire add, addi, sub, ands, ors, sll, sra, mul, div, j, bne, jal, jr, blt, lw;
 wire opp31, opp30, opp29, opp28, opp27;

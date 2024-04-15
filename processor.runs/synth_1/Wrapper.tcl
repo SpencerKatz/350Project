@@ -131,6 +131,7 @@ read_verilog -library xil_defaultlib {
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_4.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_8.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/tflipflop.v
+  C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/Downloads/txuart.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/type.v
   C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v
 }

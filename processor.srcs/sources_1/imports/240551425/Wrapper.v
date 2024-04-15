@@ -24,14 +24,16 @@
  *
  **/
 
-module Wrapper (clock, reset2, LED, JA, SW);
-	input clock, reset2;
-	input [15:0] SW;
-	output [1:1] JA;
-	
+module Wrapper (
+    input wire clock,
+    input wire reset2,
+    input wire [15:0] SW,
+    output wire [1:1] JA,
+    output wire [15:0] LED
+);
+
 	wire reset;
 	assign reset = ~reset2;
-	output [15:0] LED;
 
 	wire rwe, mwe;
 	wire[4:0] rd, rs1, rs2;
@@ -88,18 +90,71 @@ module Wrapper (clock, reset2, LED, JA, SW);
 	pwn p1(.clk(clock), .tone(tone), .chSel(chSel), .audioOut(audioOut), .audioEn(audioEn), .SW(SW));
 	assign JA[1] = audioOut;
     
-        wire [31:0] setup;
+
+    // Define wire to connect txuart output to register
+    wire txuart_output;
+
+    // Instantiate txuart module
+    txuart transmitter (
+        .i_clk(clock),
+        .i_reset(reset),
+        .i_setup(setup),
+        .i_break(1'b0), // Assuming no break condition
+        .i_wr(i_wr),
+        .i_data(dataToSend),
+        .i_cts_n(1'b1), // Assuming hardware flow control is not used
+        .o_uart_tx(txuart_output), // Connect to intermediate wire
+        .o_busy(o_busy)
+    );
+
+    // Assign txuart output to register
+    always @(*) begin
+        o_uart_tx = txuart_output;
+    end
+    
+    // Registers for controlling the UART transmission
+    reg [7:0] dataToSend_reg;
+    reg i_wr_reg;
+    reg o_busy_reg;
+
+    // Sequential logic for controlling UART transmission
+    always @(posedge clock or posedge reset2) begin
+        if (reset2) begin
+            // Reset state
+            i_wr_reg <= 1'b0;
+            dataToSend_reg <= 8'b0;
+            o_busy_reg <= 1'b0;
+        end else begin
+            // Update i_wr and dataToSend based on external inputs
+            i_wr_reg <= i_wr;
+            if (i_wr_reg) begin
+                dataToSend_reg <= i_data;
+                o_busy_reg <= 1'b1; // Signal that data transmission is in progress
+            end else begin
+                o_busy_reg <= 1'b0; // Signal that data transmission is complete
+            end
+        end
+    end
+
+    // Connect the registered signals to the txuart module
+    assign dataToSend = dataToSend_reg;
+    assign i_wr = i_wr_reg;
+    assign o_busy = o_busy_reg;
+
+    // setup wire
+    wire [31:0] setup;
     assign setup[30] = 1'b1;
     assign setup[29:28] = 2'b00;
     assign setup[27] = 1'b0;
     assign setup[26] = 1'b0;
     assign setup[25] = 1'b1;
     assign setup[23:0] = (100000000 / 9600);
-    //
+
     wire i_wr;
     wire [7:0] dataToSend;
     reg o_uart_tx;
     wire o_busy;
+
     
     
 endmodule
