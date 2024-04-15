@@ -24,14 +24,15 @@
  *
  **/
 
-module Wrapper (clock, reset2, LED, JA, SW);
-	input clock, reset2;
-	input [15:0] SW;
-	output [1:1] JA;
+module Wrapper (clock, reset2, LED, JA, JB, JC, SW);
+	input wire clock, reset2;
+	input wire [15:0] SW;
+	output wire [1:1] JA;
+	output wire [1:1] JB, JC;
 	
 	wire reset;
 	assign reset = ~reset2;
-	output [15:0] LED;
+	output wire [15:0] LED;
 
 	wire rwe, mwe;
 	wire[4:0] rd, rs1, rs2;
@@ -87,5 +88,17 @@ module Wrapper (clock, reset2, LED, JA, SW);
 	
 	pwn p1(.clk(clock), .tone(tone), .chSel(chSel), .audioOut(audioOut), .audioEn(audioEn), .SW(SW));
 	assign JA[1] = audioOut;
+	assign JC[1] = 1'b1;
+	wire [23:0] div;
+	assign div = 100000000/9600; 
+	
+	wire [30:0] i_setup;
+	assign i_setup = {1'b0, 2'b00, 1'b0, 1'b0, 2'b00, 24'b0};
+	wire o_wr;
+	wire [7:0] data;
+	
+    rxuart receiver(.i_clk(clock), .i_reset(reset2), .i_setup(i_setup), .i_uart_rx(JB[1]), .o_wr(o_wr), .o_data(data), .o_break(), .o_parity_err(), .o_frame_err(), .o_ck_uart());
+    
+    assign LED[7:0] = data;
 
 endmodule

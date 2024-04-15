@@ -1,6 +1,6 @@
 module tflipflop (T, Clock, Q, notQ, clear);
-    input T, Clock, clear;
-    output Q, notQ;
+    input wire T, Clock, clear;
+    output wire Q, notQ;
     wire notT, w1, D, w2;
 
     not NOT1(notT, T);

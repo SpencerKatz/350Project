@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Sun Apr 14 20:06:43 2024
+# Process ID: 13412
+# Current directory: C:/Users/sb734/Documents/350Project
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent8180 C:\Users\sb734\Documents\350Project\processor.xpr
+# Log file: C:/Users/sb734/Documents/350Project/vivado.log
+# Journal file: C:/Users/sb734/Documents/350Project\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/sb734/Documents/350Project/processor.xpr
+INFO: [Project 1-313] Project file moved from 'C:/Users/sek49/Documents/350Project' since last save.
+WARNING: [filemgmt 56-2] Default IP Output Path : Could not find the directory 'C:/Users/sb734/Documents/350Project/processor.gen/sources_1', nor could it be found using path 'C:/Users/sek49/Documents/350Project/processor.gen/sources_1'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2021.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.047 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory C:/Users/sb734/Documents/350Project/processor.runs/synth_1
+
+launch_runs synth_1 -jobs 6
+[Sun Apr 14 20:32:02 2024] Launched synth_1...
+Run output will be captured here: C:/Users/sb734/Documents/350Project/processor.runs/synth_1/runme.log

@@ -1,8 +1,8 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Wed Apr 10 17:52:22 2024
-| Host         : P1-05 running 64-bit major release  (build 9200)
+| Date         : Sun Apr 14 21:22:02 2024
+| Host         : P1-07 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file Wrapper_control_sets_placed.rpt
 | Design       : Wrapper
 | Device       : xc7a100t
@@ -23,11 +23,11 @@ Table of Contents
 +----------------------------------------------------------+-------+
 |                          Status                          | Count |
 +----------------------------------------------------------+-------+
-| Total control sets                                       |    38 |
-|    Minimum number of control sets                        |    38 |
+| Total control sets                                       |     3 |
+|    Minimum number of control sets                        |     3 |
 |    Addition due to synthesis replication                 |     0 |
 |    Addition due to physical synthesis replication        |     0 |
-| Unused register locations in slices containing registers |    19 |
+| Unused register locations in slices containing registers |     8 |
 +----------------------------------------------------------+-------+
 * Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
 ** Run report_qor_suggestions for automated merging and remapping suggestions
@@ -39,15 +39,15 @@ Table of Contents
 +--------------------+-------+
 |       Fanout       | Count |
 +--------------------+-------+
-| Total control sets |    38 |
+| Total control sets |     3 |
 | >= 0 to < 4        |     1 |
-| >= 4 to < 6        |     2 |
+| >= 4 to < 6        |     0 |
 | >= 6 to < 8        |     1 |
 | >= 8 to < 10       |     0 |
 | >= 10 to < 12      |     0 |
 | >= 12 to < 14      |     0 |
 | >= 14 to < 16      |     0 |
-| >= 16              |    34 |
+| >= 16              |     1 |
 +--------------------+-------+
 * Control sets can be remapped at either synth_design or opt_design
 
@@ -58,11 +58,11 @@ Table of Contents
 +--------------+-----------------------+------------------------+-----------------+--------------+
 | Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
 +--------------+-----------------------+------------------------+-----------------+--------------+
-| No           | No                    | No                     |             132 |           70 |
-| No           | No                    | Yes                    |             149 |           76 |
-| No           | Yes                   | No                     |              12 |            4 |
+| No           | No                    | No                     |               1 |            1 |
+| No           | No                    | Yes                    |              16 |            5 |
+| No           | Yes                   | No                     |               7 |            2 |
 | Yes          | No                    | No                     |               0 |            0 |
-| Yes          | No                    | Yes                    |            1040 |          473 |
+| Yes          | No                    | Yes                    |               0 |            0 |
 | Yes          | Yes                   | No                     |               0 |            0 |
 +--------------+-----------------------+------------------------+-----------------+--------------+
 
@@ -70,47 +70,12 @@ Table of Contents
 4. Detailed Control Set Information
 -----------------------------------
 
-+------------------+----------------------------------------------+------------------------------------------------------+------------------+----------------+--------------+
-|   Clock Signal   |                 Enable Signal                |                   Set/Reset Signal                   | Slice Load Count | Bel Load Count | Bels / Slice |
-+------------------+----------------------------------------------+------------------------------------------------------+------------------+----------------+--------------+
-|  clock_IBUF_BUFG |                                              |                                                      |                1 |              1 |         1.00 |
-|  clock_IBUF_BUFG |                                              | CPU/pc/fifth/q_reg_3                                 |                2 |              5 |         2.50 |
-| ~clock_IBUF_BUFG |                                              | CPU/holdIns/third/ctrl                               |                3 |              5 |         1.67 |
-|  clock_IBUF_BUFG |                                              | p1/pwm_serial/load                                   |                2 |              7 |         3.50 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[19].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |                8 |             32 |         4.00 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[24].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               24 |             32 |         1.33 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[21].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               17 |             32 |         1.88 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[22].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               11 |             32 |         2.91 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[14].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               12 |             32 |         2.67 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[10].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               17 |             32 |         1.88 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[20].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               10 |             32 |         3.20 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[25].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               11 |             32 |         2.91 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[27].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               28 |             32 |         1.14 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[17].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               14 |             32 |         2.29 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[12].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               18 |             32 |         1.78 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[18].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               18 |             32 |         1.78 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[13].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               15 |             32 |         2.13 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[1].w3  | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               18 |             32 |         1.78 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[23].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |                9 |             32 |         3.56 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[11].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               13 |             32 |         2.46 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[26].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               12 |             32 |         2.67 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[15].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               18 |             32 |         1.78 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[28].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               16 |             32 |         2.00 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[29].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               12 |             32 |         2.67 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[5].w3  | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |                9 |             32 |         3.56 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[6].w3  | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               27 |             32 |         1.19 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[2].w3  | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               11 |             32 |         2.91 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[30].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               16 |             32 |         2.00 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[31].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               11 |             32 |         2.91 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[3].w3  | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               24 |             32 |         1.33 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[4].w3  | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               11 |             32 |         2.91 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[7].w3  | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               11 |             32 |         2.91 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[9].w3  | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |                8 |             32 |         4.00 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[8].w3  | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               12 |             32 |         2.67 |
-|  clock_IBUF_BUFG | CPU/instruction2/twentyseven/gen_loop[16].w3 | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               10 |             32 |         3.20 |
-| ~clock_IBUF_BUFG | CPU/holdIns/third/q_reg_4                    | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               22 |             48 |         2.18 |
-| ~clock_IBUF_BUFG |                                              |                                                      |               69 |            131 |         1.90 |
-| ~clock_IBUF_BUFG |                                              | RegisterFile/gen_loop[31].register0/thirtyone/reset2 |               73 |            144 |         1.97 |
-+------------------+----------------------------------------------+------------------------------------------------------+------------------+----------------+--------------+
++------------------+---------------+--------------------+------------------+----------------+--------------+
+|   Clock Signal   | Enable Signal |  Set/Reset Signal  | Slice Load Count | Bel Load Count | Bels / Slice |
++------------------+---------------+--------------------+------------------+----------------+--------------+
+| ~clock_IBUF_BUFG |               |                    |                1 |              1 |         1.00 |
+|  clock_IBUF_BUFG |               | p1/pwm_serial/load |                2 |              7 |         3.50 |
+| ~clock_IBUF_BUFG |               | CPU/pc/zero/reset  |                5 |             16 |         3.20 |
++------------------+---------------+--------------------+------------------+----------------+--------------+
 
 

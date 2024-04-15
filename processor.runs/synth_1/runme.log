@@ -17,244 +17,303 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100
 INFO: [Device 21-403] Loading part xc7a100tcsg324-1
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 1504
-WARNING: [Synth 8-992] storeXM is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:55]
-WARNING: [Synth 8-992] storeMW is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:55]
-WARNING: [Synth 8-992] jr is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:90]
-WARNING: [Synth 8-992] branch is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:98]
-WARNING: [Synth 8-992] branch2 is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:107]
-WARNING: [Synth 8-992] branch3 is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:116]
-WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:39]
-WARNING: [Synth 8-6901] identifier 'jr' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:39]
-WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:40]
-WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:43]
-WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:44]
-WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:48]
-WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:48]
-WARNING: [Synth 8-6901] identifier 'branch0' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:86]
-WARNING: [Synth 8-6901] identifier 'jr0' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:87]
-WARNING: [Synth 8-992] newLocation is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:131]
-WARNING: [Synth 8-992] jr is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:134]
-WARNING: [Synth 8-992] target is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:136]
-WARNING: [Synth 8-992] jump is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:137]
-WARNING: [Synth 8-992] branch is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:138]
-WARNING: [Synth 8-992] pc3 is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:139]
-WARNING: [Synth 8-992] exceptUse is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:204]
-WARNING: [Synth 8-992] useRS1 is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:323]
-WARNING: [Synth 8-992] useRS2 is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:323]
-WARNING: [Synth 8-992] hazardHere is already implicitly declared earlier [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:324]
-WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:89]
-WARNING: [Synth 8-6901] identifier 'nop' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:93]
-WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:94]
-WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:109]
-WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:110]
-WARNING: [Synth 8-6901] identifier 'useRS2' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:110]
-WARNING: [Synth 8-6901] identifier 'nop' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:117]
-WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:118]
-WARNING: [Synth 8-6901] identifier 'errorOccured' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:219]
-WARNING: [Synth 8-6901] identifier 'errorOut' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:219]
-WARNING: [Synth 8-6901] identifier 'useMemory' is used before its declaration [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:255]
+INFO: [Synth 8-7075] Helper process launched with PID 6456
+WARNING: [Synth 8-992] storeXM is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:55]
+WARNING: [Synth 8-992] storeMW is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:55]
+WARNING: [Synth 8-992] jr is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:90]
+WARNING: [Synth 8-992] branch is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:98]
+WARNING: [Synth 8-992] branch2 is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:107]
+WARNING: [Synth 8-992] branch3 is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:116]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:39]
+WARNING: [Synth 8-6901] identifier 'jr' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:39]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:40]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:43]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:44]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:48]
+WARNING: [Synth 8-6901] identifier 'branch' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:48]
+WARNING: [Synth 8-6901] identifier 'branch0' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:86]
+WARNING: [Synth 8-6901] identifier 'jr0' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:87]
+WARNING: [Synth 8-992] newLocation is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:131]
+WARNING: [Synth 8-992] jr is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:134]
+WARNING: [Synth 8-992] target is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:136]
+WARNING: [Synth 8-992] jump is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:137]
+WARNING: [Synth 8-992] branch is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:138]
+WARNING: [Synth 8-992] pc3 is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:139]
+WARNING: [Synth 8-992] exceptUse is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:204]
+WARNING: [Synth 8-992] useRS1 is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:323]
+WARNING: [Synth 8-992] useRS2 is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:323]
+WARNING: [Synth 8-992] hazardHere is already implicitly declared earlier [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:324]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:89]
+WARNING: [Synth 8-6901] identifier 'nop' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:93]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:94]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:109]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:110]
+WARNING: [Synth 8-6901] identifier 'useRS2' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:110]
+WARNING: [Synth 8-6901] identifier 'nop' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:117]
+WARNING: [Synth 8-6901] identifier 'muldivstall' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:118]
+WARNING: [Synth 8-6901] identifier 'errorOccured' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:219]
+WARNING: [Synth 8-6901] identifier 'errorOut' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:219]
+WARNING: [Synth 8-6901] identifier 'useMemory' is used before its declaration [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:255]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1329.215 ; gain = 0.000
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'Wrapper' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-INFO: [Synth 8-6157] synthesizing module 'processor' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:20]
-INFO: [Synth 8-6157] synthesizing module 'dffe_ref' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/dffe_ref.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'dffe_ref' (1#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/dffe_ref.v:1]
-INFO: [Synth 8-6157] synthesizing module 'Fetch' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Fetch.v:1]
-INFO: [Synth 8-6157] synthesizing module 'CLA' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:1]
-INFO: [Synth 8-6157] synthesizing module 'CLA_block' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA_block.v:1]
-INFO: [Synth 8-6157] synthesizing module 'ALU_adder' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ALU_adder.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'ALU_adder' (2#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ALU_adder.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'CLA_block' (3#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA_block.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'CLA' (4#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'Fetch' (5#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Fetch.v:1]
-INFO: [Synth 8-6157] synthesizing module 'registerEx' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/registerEx.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'registerEx' (6#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/registerEx.v:1]
-INFO: [Synth 8-6157] synthesizing module 'Decode' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Decode.v:1]
-INFO: [Synth 8-6157] synthesizing module 'completeType' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/completeType.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'completeType' (7#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/completeType.v:1]
-INFO: [Synth 8-6157] synthesizing module 'type' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/type.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'type' (8#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/type.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'Decode' (9#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Decode.v:1]
-INFO: [Synth 8-6157] synthesizing module 'Execute' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Execute.v:1]
-INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/alu.v:1]
-INFO: [Synth 8-6157] synthesizing module 'barrel_shifter_left' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/barrel_shifter_left.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_left_16' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_16.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_left_8' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_8.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_left_4' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_4.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_left_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_2.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_left_1' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_1.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_left_1' (10#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_1.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_left_2' (11#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_2.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_left_4' (12#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_4.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_left_8' (13#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_8.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_left_16' (14#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_16.v:1]
-INFO: [Synth 8-6157] synthesizing module 'mux_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_2.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'mux_2' (15#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_2.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'barrel_shifter_left' (16#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/barrel_shifter_left.v:1]
-INFO: [Synth 8-6157] synthesizing module 'barrel_shifter_right' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/barrel_shifter_right.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_right_16' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_16.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_right_8' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_8.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_right_4' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_4.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_right_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_2.v:1]
-INFO: [Synth 8-6157] synthesizing module 'shift_right_1' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_1.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_right_1' (17#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_1.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_right_2' (18#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_2.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_right_4' (19#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_4.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_right_8' (20#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_8.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'shift_right_16' (21#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_16.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'barrel_shifter_right' (22#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/barrel_shifter_right.v:1]
-INFO: [Synth 8-6157] synthesizing module 'orer' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/orer.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'orer' (23#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/orer.v:1]
-INFO: [Synth 8-6157] synthesizing module 'ander' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ander.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'ander' (24#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ander.v:1]
-INFO: [Synth 8-6157] synthesizing module 'notter' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/notter.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'notter' (25#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/notter.v:1]
-INFO: [Synth 8-6157] synthesizing module 'mux_32' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_32.v:1]
-INFO: [Synth 8-6157] synthesizing module 'mux_16' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_16.v:1]
-INFO: [Synth 8-6157] synthesizing module 'mux_8' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_8.v:1]
-INFO: [Synth 8-6157] synthesizing module 'mux_4' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_4.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'mux_4' (26#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_4.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'mux_8' (27#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_8.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'mux_16' (28#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_16.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'mux_32' (29#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_32.v:1]
-WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_32' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/alu.v:33]
-INFO: [Synth 8-6155] done synthesizing module 'alu' (30#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/alu.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'Execute' (31#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Execute.v:1]
-INFO: [Synth 8-6157] synthesizing module 'multdiv' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:2]
-WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:54]
-WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:55]
-INFO: [Synth 8-6157] synthesizing module 'counter' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/counter.v:1]
-WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/counter.v:9]
-INFO: [Synth 8-6157] synthesizing module 'tflipflop' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/tflipflop.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'tflipflop' (32#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/tflipflop.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'counter' (33#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/counter.v:1]
-WARNING: [Synth 8-689] width (32) of port connection 'count' does not match port width (5) of module 'counter' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:62]
-WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:76]
-INFO: [Synth 8-6157] synthesizing module 'multiplier' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multiplier.v:1]
-WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multiplier.v:26]
-INFO: [Synth 8-6155] done synthesizing module 'multiplier' (34#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multiplier.v:1]
-INFO: [Synth 8-6157] synthesizing module 'divider' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/divider.v:1]
-WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/divider.v:41]
-INFO: [Synth 8-6155] done synthesizing module 'divider' (35#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/divider.v:1]
-WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:106]
-WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:108]
-INFO: [Synth 8-6155] done synthesizing module 'multdiv' (36#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:2]
-INFO: [Synth 8-6157] synthesizing module 'exceptions' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'exceptions' (37#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
-INFO: [Synth 8-6157] synthesizing module 'Memory' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Memory.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'Memory' (38#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Memory.v:1]
-INFO: [Synth 8-6157] synthesizing module 'bypassing' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:1]
-INFO: [Synth 8-6157] synthesizing module 'hazard' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'hazard' (39#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'bypassing' (40#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'processor' (41#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:20]
-INFO: [Synth 8-6157] synthesizing module 'ROM' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ROM.v:2]
+INFO: [Synth 8-6157] synthesizing module 'Wrapper' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+INFO: [Synth 8-6157] synthesizing module 'processor' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:20]
+INFO: [Synth 8-6157] synthesizing module 'dffe_ref' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/dffe_ref.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'dffe_ref' (1#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/dffe_ref.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Fetch' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Fetch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA_block' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA_block.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU_adder' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/ALU_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_adder' (2#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/ALU_adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CLA_block' (3#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA_block.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CLA' (4#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Fetch' (5#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Fetch.v:1]
+INFO: [Synth 8-6157] synthesizing module 'registerEx' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/registerEx.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'registerEx' (6#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/registerEx.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Decode' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Decode.v:1]
+INFO: [Synth 8-6157] synthesizing module 'completeType' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/completeType.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'completeType' (7#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/completeType.v:1]
+INFO: [Synth 8-6157] synthesizing module 'type' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/type.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'type' (8#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/type.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Decode' (9#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Decode.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Execute' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Execute.v:1]
+INFO: [Synth 8-6157] synthesizing module 'alu' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/alu.v:1]
+INFO: [Synth 8-6157] synthesizing module 'barrel_shifter_left' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/barrel_shifter_left.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_16' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_8' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_4' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_left_1' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_1' (10#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_2' (11#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_4' (12#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_8' (13#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_left_16' (14#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_2' (15#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'barrel_shifter_left' (16#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/barrel_shifter_left.v:1]
+INFO: [Synth 8-6157] synthesizing module 'barrel_shifter_right' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/barrel_shifter_right.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_16' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_8' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_4' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_4.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_2.v:1]
+INFO: [Synth 8-6157] synthesizing module 'shift_right_1' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_1' (17#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_2' (18#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_2.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_4' (19#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_8' (20#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'shift_right_16' (21#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_16.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'barrel_shifter_right' (22#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/barrel_shifter_right.v:1]
+INFO: [Synth 8-6157] synthesizing module 'orer' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/orer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'orer' (23#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/orer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ander' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/ander.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ander' (24#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/ander.v:1]
+INFO: [Synth 8-6157] synthesizing module 'notter' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/notter.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'notter' (25#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/notter.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_32' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_32.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_16' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_16.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_8' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_8.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mux_4' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_4' (26#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_4.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_8' (27#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_8.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_16' (28#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_16.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'mux_32' (29#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_32.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_32' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/alu.v:33]
+INFO: [Synth 8-6155] done synthesizing module 'alu' (30#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/alu.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Execute' (31#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Execute.v:1]
+INFO: [Synth 8-6157] synthesizing module 'multdiv' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:2]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:54]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:55]
+INFO: [Synth 8-6157] synthesizing module 'counter' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/counter.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/counter.v:9]
+INFO: [Synth 8-6157] synthesizing module 'tflipflop' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/tflipflop.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'tflipflop' (32#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/tflipflop.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (33#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/counter.v:1]
+WARNING: [Synth 8-689] width (32) of port connection 'count' does not match port width (5) of module 'counter' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:62]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:76]
+INFO: [Synth 8-6157] synthesizing module 'multiplier' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multiplier.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multiplier.v:26]
+INFO: [Synth 8-6155] done synthesizing module 'multiplier' (34#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multiplier.v:1]
+INFO: [Synth 8-6157] synthesizing module 'divider' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/divider.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/divider.v:41]
+INFO: [Synth 8-6155] done synthesizing module 'divider' (35#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/divider.v:1]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:106]
+WARNING: [Synth 8-689] width (1) of port connection 'out' does not match port width (32) of module 'mux_2' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:108]
+INFO: [Synth 8-6155] done synthesizing module 'multdiv' (36#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/multdiv.v:2]
+INFO: [Synth 8-6157] synthesizing module 'exceptions' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'exceptions' (37#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/exceptions.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Memory' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Memory.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Memory' (38#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Memory.v:1]
+INFO: [Synth 8-6157] synthesizing module 'bypassing' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:1]
+INFO: [Synth 8-6157] synthesizing module 'hazard' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'hazard' (39#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'bypassing' (40#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'processor' (41#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/processor.v:20]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/ROM.v:2]
 	Parameter MEMFILE bound to: 112'b0110000101100100011001000110100101011111011000100110000101110011011010010110001100101110011011010110010101101101 
-INFO: [Synth 8-3876] $readmem data file 'addi_basic.mem' is read successfully [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ROM.v:11]
-INFO: [Synth 8-6155] done synthesizing module 'ROM' (42#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ROM.v:2]
-INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/regfile.v:1]
-INFO: [Synth 8-6155] done synthesizing module 'regfile' (43#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/regfile.v:1]
-INFO: [Synth 8-6157] synthesizing module 'RAM' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/RAM.v:2]
-INFO: [Synth 8-6155] done synthesizing module 'RAM' (44#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/RAM.v:2]
-INFO: [Synth 8-6157] synthesizing module 'pwn' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/pwn.v:2]
-INFO: [Synth 8-6157] synthesizing module 'PWMSerializers' [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/PWMSerializers.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'PWMSerializers' (45#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/PWMSerializers.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'pwn' (46#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/new/pwn.v:2]
-INFO: [Synth 8-6155] done synthesizing module 'Wrapper' (47#1) [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
+INFO: [Synth 8-3876] $readmem data file 'addi_basic.mem' is read successfully [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/ROM.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (42#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/ROM.v:2]
+INFO: [Synth 8-6157] synthesizing module 'regfile' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/regfile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'regfile' (43#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/regfile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/RAM.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (44#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/RAM.v:2]
+INFO: [Synth 8-6157] synthesizing module 'pwn' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/new/pwn.v:2]
+INFO: [Synth 8-6157] synthesizing module 'PWMSerializers' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/new/PWMSerializers.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'PWMSerializers' (45#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/new/PWMSerializers.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'pwn' (46#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/new/pwn.v:2]
+INFO: [Synth 8-6157] synthesizing module 'rxuart' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'rxuart' (47#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'Wrapper' (48#1) [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1329.215 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.215 ; gain = 0.000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1329.215 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.304 . Memory (MB): peak = 1329.281 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.298 . Memory (MB): peak = 1329.215 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc]
-WARNING: [Vivado 12-584] No ports matched 'BTNL'. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:78]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:78]
+Parsing XDC File [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'BTNL'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:78]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JA[2]'. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:86]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:86]
+WARNING: [Vivado 12-584] No ports matched 'JA[2]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:86]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JA[3]'. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:87]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:87]
+WARNING: [Vivado 12-584] No ports matched 'JA[3]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:87]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JA[4]'. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:88]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:88]
+WARNING: [Vivado 12-584] No ports matched 'JA[4]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:88]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JA[7]'. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:89]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:89]
+WARNING: [Vivado 12-584] No ports matched 'JA[7]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:89]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JA[8]'. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:90]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:90]
+WARNING: [Vivado 12-584] No ports matched 'JA[8]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:90]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JA[9]'. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:91]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:91]
+WARNING: [Vivado 12-584] No ports matched 'JA[9]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:91]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-WARNING: [Vivado 12-584] No ports matched 'JA[10]'. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:92]
-CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:92]
+WARNING: [Vivado 12-584] No ports matched 'JA[10]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:92]
 Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
-Finished Parsing XDC File [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Wrapper_propImpl.xdc].
+WARNING: [Vivado 12-584] No ports matched 'JB[2]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:96]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:96]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[3]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:97]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:97]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[4]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[7]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[8]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[9]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JB[10]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:102]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:102]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[2]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[3]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[4]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:108]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:108]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[7]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:109]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:109]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[8]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[9]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'JC[10]'. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/Wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/Wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1433.633 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1437.035 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.023 . Memory (MB): peak = 1433.633 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 1437.035 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1433.633 ; gain = 104.352
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a100tcsg324-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1433.633 ; gain = 104.352
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1433.633 ; gain = 104.352
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1433.633 ; gain = 104.352
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
+	   2 Input   24 Bit       Adders := 3     
 	   2 Input    7 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
 +---XORs : 
 	   3 Input      1 Bit         XORs := 384   
-	   2 Input      1 Bit         XORs := 15    
+	   2 Input      1 Bit         XORs := 17    
 +---Registers : 
 	               32 Bit    Registers := 2     
+	               30 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	                8 Bit    Registers := 2     
 	                7 Bit    Registers := 1     
-	                1 Bit    Registers := 1548  
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1560  
 +---RAMs : 
 	             128K Bit	(4096 X 32 bit)          RAMs := 1     
 +---Muxes : 
 	   2 Input   32 Bit        Muxes := 185   
 	  39 Input   32 Bit        Muxes := 1     
+	   2 Input   24 Bit        Muxes := 2     
+	   4 Input   24 Bit        Muxes := 1     
+	   4 Input    8 Bit        Muxes := 1     
 	   2 Input    7 Bit        Muxes := 1     
 	   2 Input    5 Bit        Muxes := 9     
+	   2 Input    4 Bit        Muxes := 5     
+	   3 Input    4 Bit        Muxes := 3     
+	   4 Input    4 Bit        Muxes := 1     
 	   6 Input    3 Bit        Muxes := 1     
+	   4 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 12    
+	   3 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -270,666 +329,50 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'receiver/o_data_reg[7]/Q' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'receiver/o_data_reg[6]/Q' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'receiver/o_data_reg[5]/Q' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'receiver/o_data_reg[4]/Q' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'receiver/o_data_reg[3]/Q' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'receiver/o_data_reg[2]/Q' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'receiver/o_data_reg[1]/Q' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 1st driver pin 'receiver/o_data_reg[0]/Q' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin Q with 2nd driver pin 'GND' [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net Q is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v:469]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:30 . Memory (MB): peak = 1433.633 ; gain = 104.352
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1433.633 ; gain = 104.352
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
-      : CPU/b1/i_0/DXInstruction[8]
-      : CPU/b1/DXInstruction[25]
-      : CPU/i_0/exceptUse0[3]
-      : CPU/i_0/over
-      : CPU/execute/over
-      : CPU/execute/\ALU/mux2 /out[0]
-      : CPU/execute/\ALU/mux2 /\final/out_inferred /out[0]
-      : CPU/execute/\ALU/mux2 /\final/out_inferred /in1[0]
-      : CPU/execute/\ALU/mux2 /in1[0]
-      : CPU/execute/\ALU/subbed1 /overflow
-      : CPU/execute/\ALU/subbed1 /i_0/overflow
-      : CPU/execute/\ALU/subbed1 /i_0/data_operandA[30]
-      : CPU/execute/\ALU/subbed1 /data_operandA[30]
-      : CPU/execute/rs1[30]
-      : CPU/b1/useRS1[30]
-      : CPU/b1/i_0/useRS1[30]
-      : CPU/i_0/over
-      : CPU/execute/over
-      : CPU/execute/\ALU/mux2 /out[0]
-      : CPU/execute/\ALU/mux2 /\final/out_inferred /out[0]
-      : CPU/execute/\ALU/mux2 /\final/out_inferred /in1[0]
-      : CPU/execute/\ALU/mux2 /in1[0]
-      : CPU/execute/\ALU/subbed1 /overflow
-      : CPU/execute/\ALU/subbed1 /i_0/overflow
-      : CPU/execute/\ALU/subbed1 /i_0/data_operandA[30]
-      : CPU/execute/\ALU/subbed1 /data_operandA[30]
-      : CPU/execute/rs1[30]
-      : CPU/b1/useRS1[30]
-      : CPU/b1/i_0/useRS1[30]
-      : CPU/b1/i_0/DXInstruction[8]
-      : CPU/b1/DXInstruction[25]
-      : CPU/i_0/exceptUse0[3]
-      : CPU/i_0/over
-      : CPU/execute/over
-      : CPU/execute/\ALU/mux2 /out[0]
-      : CPU/execute/\ALU/mux2 /\final/out_inferred /out[0]
-      : CPU/execute/\ALU/mux2 /\final/out_inferred /in1[0]
-      : CPU/execute/\ALU/mux2 /in1[0]
-      : CPU/execute/\ALU/subbed1 /overflow
-      : CPU/execute/\ALU/subbed1 /i_0/overflow
-      : CPU/execute/\ALU/subbed1 /i_0/data_operandA[30]
-      : CPU/execute/\ALU/subbed1 /data_operandA[30]
-      : CPU/execute/rs1[30]
-      : CPU/b1/useRS1[30]
-      : CPU/b1/i_0/useRS1[30]
-      : CPU/b1/i_0/DXInstruction[9]
-      : CPU/b1/DXInstruction[26]
-      : CPU/i_0/exceptUse0[4]
-      : CPU/md1/i_1/data_operandA[31]
-      : CPU/md1/data_operandA[31]
-      : CPU/b1/useRS1[31]
-      : CPU/b1/i_0/useRS1[31]
-      : CPU/b1/i_0/DXInstruction[5]
-      : CPU/b1/DXInstruction[22]
-      : CPU/i_0/exceptUse0[0]
-      : CPU/i_0/multE
-      : CPU/md1/data_exception
-      : CPU/md1/i_1/data_exception
-      : CPU/md1/i_1/data_operandA[30]
-      : CPU/md1/data_operandA[30]
-      : CPU/b1/useRS1[30]
-      : CPU/b1/i_0/useRS1[30]
-      : CPU/b1/i_0/DXInstruction[5]
-      : CPU/b1/DXInstruction[22]
-      : CPU/i_0/exceptUse0[0]
-      : CPU/i_0/multE
-      : CPU/md1/data_exception
-      : CPU/md1/i_1/data_exception
-      : CPU/md1/i_1/data_operandA[24]
-      : CPU/md1/data_operandA[24]
-      : CPU/b1/useRS1[24]
-      : CPU/b1/i_0/useRS1[24]
-      : CPU/execute/\ALU/mux2 /\final/out_inferred /in1[0]
-      : CPU/execute/\ALU/mux2 /in1[0]
-      : CPU/execute/\ALU/subbed1 /overflow
-      : CPU/execute/\ALU/subbed1 /i_0/overflow
-      : CPU/execute/\ALU/subbed1 /i_0/data_operandA[30]
-      : CPU/execute/\ALU/subbed1 /data_operandA[30]
-      : CPU/execute/rs1[30]
-      : CPU/b1/useRS1[30]
-      : CPU/b1/i_0/useRS1[30]
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:39 ; elapsed = 00:00:40 . Memory (MB): peak = 1515.160 ; gain = 185.879
+Finished Timing Optimization : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3881/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3882/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3883/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3884/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3885/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3887/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3886/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3888/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3889/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3890/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3891/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3892/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3893/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3894/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3895/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3896/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3898/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3899/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3900/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3901/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3902/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3903/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3904/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3905/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3906/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3907/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3908/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3910/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3911/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3897/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3909/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3913/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3914/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3915/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3916/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3917/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3919/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3918/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3920/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3921/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3922/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3923/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3924/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3925/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3926/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3927/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3928/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3930/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3931/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3932/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3933/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3934/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3935/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3936/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3937/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3938/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3939/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3940/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3942/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3929/Z'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3941/Z'
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/I5 (LUT6)
-     2: i_2815/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:43]
-     3: i_2815/I5 (LUT6)
-     4: i_3156/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     5: i_3156/I3 (LUT6)
-     6: i_2288/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     7: i_2288/I5 (LUT6)
-     8: i_2290/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     9: i_2290/I5 (LUT6)
-    10: i_2312/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-    11: i_2312/I5 (LUT6)
-    12: i_2334/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-    13: i_2334/I5 (LUT6)
-    14: i_2536/O (LUT5)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-    15: i_2536/I0 (LUT5)
-    16: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-    17: i_2870/I1 (LUT3)
-    18: i_2839/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-    19: i_2839/I0 (LUT3)
-    20: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Inferred a: "set_disable_timing -from I5 -to O i_3150"
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/I5 (LUT6)
-     2: i_2816/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/hazard.v:39]
-     3: i_2816/I5 (LUT6)
-     4: i_2915/O (LUT4)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/exceptions.v:10]
-     5: i_2915/I3 (LUT4)
-     6: i_3016/O (LUT5)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/exceptions.v:10]
-     7: i_3016/I0 (LUT5)
-     8: ALUi_2262/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/mux_2.v:5]
-     9: ALUi_2262/I5 (LUT6)
-    10: \CPU/execute/ALU/added/i_/i_2078 /O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ALU_adder.v:5]
-    11: \CPU/execute/ALU/added/i_/i_2078 /I5 (LUT6)
-    12: \CPU/execute/ALU/added/i_/i_2079 /O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/ALU_adder.v:5]
-    13: \CPU/execute/ALU/added/i_/i_2079 /I4 (LUT6)
-    14: i_2888/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-    15: i_2888/I0 (LUT3)
-    16: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Inferred a: "set_disable_timing -from I5 -to O i_3151"
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2874/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2874/I1 (LUT3)
-     2: i_2843/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     3: i_2843/I0 (LUT3)
-     4: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     5: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Inferred a: "set_disable_timing -from I1 -to O i_2874"
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2870/I0 (LUT3)
-     2: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     3: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Inferred a: "set_disable_timing -from I0 -to O i_2870"
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2874/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2874/I0 (LUT3)
-     2: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     3: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Inferred a: "set_disable_timing -from I0 -to O i_2874"
-Found timing loop:
-     0: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2870/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3150/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3150/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_3151/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3151/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2874/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2874/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2870/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2874/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2874/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2870/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2870/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2874/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2874/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2874/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2874/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2870/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2874/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2874/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2870/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2874/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     1: i_2874/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Found timing loop:
-     0: i_2290/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     1: i_2290/I5 (LUT6)
-     2: i_2312/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     3: i_2312/I5 (LUT6)
-     4: i_2334/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     5: i_2334/I5 (LUT6)
-     6: i_2536/O (LUT5)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     7: i_2536/I0 (LUT5)
-     8: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     9: i_2870/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Inferred a: "set_disable_timing -from I5 -to O i_2290"
-Found timing loop:
-     0: i_2536/O (LUT5)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     1: i_2536/I0 (LUT5)
-     2: i_2870/O (LUT3)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/bypassing.v:16]
-     3: i_2870/O (LUT3)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Inferred a: "set_disable_timing -from I0 -to O i_2536"
-Found timing loop:
-     0: i_2334/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     1: i_2334/I5 (LUT6)
-     2: i_2536/O (LUT5)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     3: i_2536/O (LUT5)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Inferred a: "set_disable_timing -from I5 -to O i_2334"
-Found timing loop:
-     0: i_3156/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-     1: i_3156/I3 (LUT6)
-     2: i_2288/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     3: i_2288/I5 (LUT6)
-     4: i_2290/O (LUT6)
-      [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/CLA.v:13]
-     5: i_2290/O (LUT6)
-CRITICAL WARNING: [Synth 8-295] found timing loop. [C:/Users/sek49/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v:27]
-Inferred a: "set_disable_timing -from I3 -to O i_3156"
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through i_3021/O'
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:40 ; elapsed = 00:00:41 . Memory (MB): peak = 1524.184 ; gain = 194.902
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -947,39 +390,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1524.184 ; gain = 194.902
+Finished IO Insertion : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1524.184 ; gain = 194.902
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through q_i_5__37/O'
-WARNING: [Synth 8-326] inferred exception to break timing loop: 'set_false_path -through q_i_4__65/O'
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1524.184 ; gain = 194.902
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1524.184 ; gain = 194.902
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1524.184 ; gain = 194.902
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1524.184 ; gain = 194.902
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -997,41 +438,40 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |     1|
-|3     |LUT1   |    10|
-|4     |LUT2   |   263|
-|5     |LUT3   |   138|
-|6     |LUT4   |   213|
-|7     |LUT5   |   335|
-|8     |LUT6   |  1611|
-|9     |MUXF7  |     2|
-|10    |FDCE   |  1189|
-|11    |FDRE   |   139|
-|12    |FDSE   |     5|
-|13    |IBUF   |     9|
-|14    |OBUF   |    17|
+|3     |LUT1   |     4|
+|4     |LUT2   |     7|
+|5     |LUT3   |     4|
+|6     |LUT4   |    10|
+|7     |LUT5   |     4|
+|8     |LUT6   |    12|
+|9     |FDCE   |    16|
+|10    |FDRE   |     8|
+|11    |IBUF   |     9|
+|12    |OBUF   |    18|
+|13    |OBUFT  |     1|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:43 ; elapsed = 00:00:43 . Memory (MB): peak = 1524.184 ; gain = 194.902
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1437.035 ; gain = 107.820
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 80 critical warnings and 64 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:35 ; elapsed = 00:00:40 . Memory (MB): peak = 1524.184 ; gain = 90.551
-Synthesis Optimization Complete : Time (s): cpu = 00:00:43 ; elapsed = 00:00:44 . Memory (MB): peak = 1524.184 ; gain = 194.902
+Synthesis finished with 0 errors, 24 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:17 ; elapsed = 00:00:22 . Memory (MB): peak = 1437.035 ; gain = 0.000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:25 ; elapsed = 00:00:25 . Memory (MB): peak = 1437.035 ; gain = 107.820
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.074 . Memory (MB): peak = 1527.039 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1437.035 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1531.703 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1437.035 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete, checksum: c08ac048
+Synth Design complete, checksum: 2a021fe2
 INFO: [Common 17-83] Releasing license: Synthesis
-110 Infos, 118 Warnings, 88 Critical Warnings and 0 Errors encountered.
+112 Infos, 68 Warnings, 46 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:47 ; elapsed = 00:00:48 . Memory (MB): peak = 1531.703 ; gain = 202.422
+synth_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:29 . Memory (MB): peak = 1437.035 ; gain = 107.820
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
-INFO: [Common 17-1381] The checkpoint 'C:/Users/sek49/Documents/350Project/processor.runs/synth_1/Wrapper.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/sb734/Documents/350Project/processor.runs/synth_1/Wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file Wrapper_utilization_synth.rpt -pb Wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Wed Apr 10 17:51:30 2024...
+INFO: [Common 17-206] Exiting Vivado at Sun Apr 14 21:21:10 2024...
