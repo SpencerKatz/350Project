@@ -87,5 +87,19 @@ module Wrapper (clock, reset2, LED, JA, SW);
 	
 	pwn p1(.clk(clock), .tone(tone), .chSel(chSel), .audioOut(audioOut), .audioEn(audioEn), .SW(SW));
 	assign JA[1] = audioOut;
-
+    
+        wire [31:0] setup;
+    assign setup[30] = 1'b1;
+    assign setup[29:28] = 2'b00;
+    assign setup[27] = 1'b0;
+    assign setup[26] = 1'b0;
+    assign setup[25] = 1'b1;
+    assign setup[23:0] = (100000000 / 9600);
+    //
+    wire i_wr;
+    wire [7:0] dataToSend;
+    reg o_uart_tx;
+    wire o_busy;
+    
+    
 endmodule
