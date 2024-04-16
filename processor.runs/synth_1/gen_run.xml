@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1713144035">
+<GenRun Id="synth_1" LaunchPart="xc7a100tcsg324-1" LaunchTime="1713297748">
   <File Type="PA-TCL" Name="Wrapper.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="Wrapper_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="Wrapper_reports.tcl"/>
@@ -421,6 +421,15 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/imports/Downloads/txuart.v">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/txuart.v"/>
+        <Attr Name="ImportTime" Val="1712787072"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/imports/240551425/type.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/240551425/type.v"/>
@@ -433,16 +442,6 @@
     <File Path="$PSRCDIR/sources_1/imports/240551425/Wrapper.v">
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/240551425/Wrapper.v"/>
-        <Attr Name="ImportTime" Val="1712178495"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PSRCDIR/sources_1/imports/240551425/Wrapper_tb.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/240551425/Wrapper_tb.v"/>
         <Attr Name="ImportTime" Val="1712178495"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -479,11 +478,11 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PSRCDIR/sources_1/imports/Downloads/txuart.v">
+    <File Path="$PSRCDIR/sources_1/imports/240551425/Wrapper_tb.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/txuart.v"/>
-        <Attr Name="ImportTime" Val="1712787072"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/240551425/Wrapper_tb.v"/>
+        <Attr Name="ImportTime" Val="1712178495"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>

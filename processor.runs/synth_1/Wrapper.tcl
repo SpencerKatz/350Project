@@ -71,6 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 3
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a100tcsg324-1
 
@@ -133,6 +134,7 @@ read_verilog -library xil_defaultlib {
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_4.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_8.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/tflipflop.v
+  C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/txuart.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/type.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v
 }

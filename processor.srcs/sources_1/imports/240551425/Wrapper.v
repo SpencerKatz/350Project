@@ -97,8 +97,29 @@ module Wrapper (clock, reset2, LED, JA, JB, JC, SW);
 	wire o_wr;
 	wire [7:0] data;
 	
-    rxuart receiver(.i_clk(clock), .i_reset(reset2), .i_setup(i_setup), .i_uart_rx(JB[1]), .o_wr(o_wr), .o_data(data), .o_break(), .o_parity_err(), .o_frame_err(), .o_ck_uart());
+    rxuart receiver(.i_clk(clock), .i_reset(reset2), .i_setup(i_setup), .i_uart_rx(JC[1]), .o_wr(o_wr), .o_data(data), .o_break(), .o_parity_err(), .o_frame_err(), .o_ck_uart());
     
-    assign LED[7:0] = data;
+    
+    wire [30:0] i_setup_tx;
+	assign i_setup_tx = {1'b0, 2'b00, 1'b0, 1'b0, 2'b00, 24'b0};
+	
+	wire o_uart_tx, o_busy;
+    
+    wire[7:0] i_data;
+    assign i_data = 8'b00000101;
+    
+    txuart transmitter(.i_clk(clock), .i_reset(reset2), .i_setup(i_setup_tx), .o_uart_tx(JB[1]), .i_wr(1'b1), .i_data(i_data), .i_break(1'b0), .i_cts_n(1'b1), .o_busy(o_busy));
+
+    assign LED[7:0] = 8'b00000101;
+    assign LED[9] = data[7];
+    assign LED[8] = data[6];
+    assign LED[9] = data[5];
+    assign LED[8] = data[4];
+    assign LED[9] = data[3];
+    assign LED[8] = data[2];
+    assign LED[9] = data[1];
+    assign LED[8] = data[0];
+
+
 
 endmodule
