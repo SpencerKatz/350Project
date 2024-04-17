@@ -122,7 +122,6 @@ read_verilog -library xil_defaultlib {
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/new/pwn.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/regfile.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/registerEx.v
-  C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/rxuart.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_1.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_16.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_left_2.v
@@ -134,8 +133,9 @@ read_verilog -library xil_defaultlib {
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_4.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/shift_right_8.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/tflipflop.v
-  C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/Downloads/txuart.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/type.v
+  C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/new/uart_rx.v
+  C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/new/uart_tx.v
   C:/Users/sb734/Documents/350Project/processor.srcs/sources_1/imports/240551425/Wrapper.v
 }
 OPTRACE "Adding files" END { }

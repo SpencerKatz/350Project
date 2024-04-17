@@ -392,15 +392,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/Downloads/rxuart.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/rxuart.v"/>
-          <Attr Name="ImportTime" Val="1712787065"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/240551425/shift_left_1.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/240551425/shift_left_1.v"/>
@@ -500,19 +491,24 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/Downloads/txuart.v">
+      <File Path="$PSRCDIR/sources_1/imports/240551425/type.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/txuart.v"/>
-          <Attr Name="ImportTime" Val="1712787072"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/240551425/type.v"/>
+          <Attr Name="ImportTime" Val="1712178496"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/240551425/type.v">
+      <File Path="$PSRCDIR/sources_1/new/uart_rx.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/240551425/type.v"/>
-          <Attr Name="ImportTime" Val="1712178496"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/new/uart_tx.v">
+        <FileInfo>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
@@ -552,6 +548,26 @@
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="ImportPath" Val="$PPRDIR/../Downloads/240551425/regfile_tb.v"/>
           <Attr Name="ImportTime" Val="1712178496"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Downloads/rxuart.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/rxuart.v"/>
+          <Attr Name="ImportTime" Val="1712787065"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Downloads/txuart.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/txuart.v"/>
+          <Attr Name="ImportTime" Val="1712787072"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
