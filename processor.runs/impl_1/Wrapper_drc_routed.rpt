@@ -1,8 +1,8 @@
 Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2021.1 (win64) Build 3247384 Thu Jun 10 19:36:33 MDT 2021
-| Date         : Wed Apr 10 17:53:26 2024
-| Host         : P1-05 running 64-bit major release  (build 9200)
+| Date         : Tue Apr 16 23:53:35 2024
+| Host         : P1-07 running 64-bit major release  (build 9200)
 | Command      : report_drc -file Wrapper_drc_routed.rpt -pb Wrapper_drc_routed.pb -rpx Wrapper_drc_routed.rpx
 | Design       : Wrapper
 | Device       : xc7a100tcsg324-1
@@ -24,12 +24,11 @@ Table of Contents
       Design limits: <entire design considered>
            Ruledeck: default
              Max violations: <unlimited>
-             Violations found: 2
+             Violations found: 1
 +----------+----------+-----------------------------------------------------+------------+
 | Rule     | Severity | Description                                         | Violations |
 +----------+----------+-----------------------------------------------------+------------+
 | CFGBVS-1 | Warning  | Missing CFGBVS and CONFIG_VOLTAGE Design Properties | 1          |
-| LUTLP-2  | Warning  | Combinatorial Loop Allowed                          | 1          |
 +----------+----------+-----------------------------------------------------+------------+
 
 2. REPORT DETAILS
@@ -45,19 +44,6 @@ Neither the CFGBVS nor CONFIG_VOLTAGE voltage property is set in the current_des
  #where value2 is the voltage provided to configuration bank 0
 
 Refer to the device configuration user guide for more information.
-Related violations: <none>
-
-LUTLP-2#1 Warning
-Combinatorial Loop Allowed  
-378 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: CPU/execute/ALU/added/i_/q_i_7__1_comp_4,
-CPU/execute/ALU/added/i_/q_i_7__1_comp_5,
-CPU/execute/ALU/added/i_/q_i_7__9, CPU/execute/ALU/added/i_/q_i_8__1,
-CPU/execute/ALU/added/i_/q_i_8__8, CPU/execute/ALU/added/i_/q_i_9__0,
-CPU/execute/ALU/subbed1/i_/q_i_5__8, CPU/execute/ALU/subbed1/i_/q_i_6__2,
-CPU/execute/ALU/subbed1/i_/q_i_7__2, CPU/execute/ALU/subbed1/i_/q_i_7__4,
-CPU/execute/ALU/subbed1/i_/q_i_8__1, CPU/execute/ALU/subbed1/i_/q_i_8__2,
-CPU/execute/ALU/subbed1/i_/q_i_8__5, CPU/execute/ALU/subbed1/i_/q_i_8__6,
-CPU/execute/ALU/subbed1/i_/q_i_8__7 (the first 15 of 378 listed).
 Related violations: <none>
 
 

@@ -160,7 +160,9 @@ module rxuart #(
 	assign	use_parity  = r_setup[26];
 	assign	fixd_parity = r_setup[25];
 	assign	parity_even = r_setup[24];
-	assign	break_condition = { r_setup[23:0], 4'h0 };
+	always @* begin
+	   break_condition = { r_setup[23:0], 4'h0 };
+	end
 	assign	half_baud = { 1'h0, r_setup[23:1] }-24'h1;
 
 	// }}}

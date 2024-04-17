@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/Users/sek49/Documents/350Project/processor.runs/impl_1/Wrapper.tcl"
+  variable script "C:/Users/sb734/Documents/350Project/processor.runs/impl_1/Wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -130,15 +130,15 @@ OPTRACE "create in-memory project" START { }
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/Users/sek49/Documents/350Project/processor.cache/wt [current_project]
-  set_property parent.project_path C:/Users/sek49/Documents/350Project/processor.xpr [current_project]
-  set_property ip_output_repo C:/Users/sek49/Documents/350Project/processor.cache/ip [current_project]
+  set_property webtalk.parent_dir C:/Users/sb734/Documents/350Project/processor.cache/wt [current_project]
+  set_property parent.project_path C:/Users/sb734/Documents/350Project/processor.xpr [current_project]
+  set_property ip_output_repo C:/Users/sb734/Documents/350Project/processor.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/Users/sek49/Documents/350Project/processor.runs/synth_1/Wrapper.dcp
+  add_files -quiet C:/Users/sb734/Documents/350Project/processor.runs/synth_1/Wrapper.dcp
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/Users/sek49/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc
+  read_xdc C:/Users/sb734/Documents/350Project/processor.srcs/constrs_1/imports/lab-3-master/master.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
